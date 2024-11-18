@@ -1,5 +1,5 @@
 import { ref, push, get, update, remove, query, orderByChild, equalTo } from 'firebase/database';
-import { db } from '../database/firebase/firebase';
+import { db } from '../database/firebase';
 
 export class AuctionsRepository {
   constructor() {

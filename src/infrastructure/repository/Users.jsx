@@ -7,7 +7,7 @@ import {
     sendPasswordResetEmail
 } from 'firebase/auth';
 import { ref, push, get, update, remove, query, orderByChild, equalTo } from 'firebase/database';
-import { db, auth } from '../database/firebase/firebase';
+import { db, auth } from '../database/firebase';
 
 export class UsersRepository {  
 

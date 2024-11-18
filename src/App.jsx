@@ -1,7 +1,7 @@
 import './App.css'; 
 import { Routes, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import { store } from './store/store'; 
+import { store } from './store/store.js'; 
 import MainLayout from './presentation/layouts/MainLayout.jsx';
 import HomePage from './presentation/pages/HomePage.jsx';
 import LoginPage from './presentation/pages/LoginPage.jsx';
