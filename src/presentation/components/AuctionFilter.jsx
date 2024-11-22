@@ -35,8 +35,9 @@ const AuctionFilter = ({ onFilterChange }) => {
           </div>
 
           <div className="flex flex-col gap-2">
-            <label className="text-sm font-medium text-gray-700">Price Range</label>
+            <label htmlFor="price-select" className="text-sm font-medium text-gray-700">Price Range</label>
             <select 
+              id="price-select"
               name="priceRange" 
               value={filters.priceRange}
               onChange={handleFilterChange}
