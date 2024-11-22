@@ -14,64 +14,6 @@ const HomePage = () => {
   
   useEffect(() => {
     const fetchAuctions = async () => {
-      // const mockAuctions = [
-      //   {
-      //     id: 1,
-      //     title: "Website Design",
-      //     description: "Professional website design service with modern UI/UX principles",
-      //     currentBid: 100,
-      //     bids: 2,
-      //     category: "development",
-      //     endTime: "2024-04-20T10:00:00Z"
-      //   },
-      //   {
-      //     id: 2,
-      //     title: "Website Design",
-      //     description: "Professional websssite design service with modern UI/UX principles",
-      //     currentBid: 250,
-      //     bids: 5,
-      //     category: "design",
-      //     endTime: "2024-11-08T13:25:00Z"
-      //   },
-      //   {
-      //     id: 3,
-      //     title: "Websaite Design",
-      //     description: "Professional websssite design service with modern UI/UX principles",
-      //     currentBid: 250,
-      //     bids: 5,
-      //     category: "design",
-      //     endTime: "2024-04-20T10:00:00Z"
-      //   },
-      //   {
-      //     id: 4,
-      //     title: "Websaite Design",
-      //     description: "Professional websssite design service with modern UI/UX principles",
-      //     currentBid: 250,
-      //     bids: 5,
-      //     category: "design",
-      //     endTime: "2024-04-20T10:00:00Z"
-      //   },
-      //   {
-      //     id: 5,
-      //     title: "Websaite Design",
-      //     description: "Professional websssite design service with modern UI/UX principles",
-      //     currentBid: 250,
-      //     bids: 5,
-      //     category: "design",
-      //     endTime: "2024-04-20T10:00:00Z"
-      //   },
-      //   {
-      //     id: 6,
-      //     title: "Websaite Design",
-      //     description: "Professional websssite design service with modern UI/UX principles",
-      //     currentBid: 250,
-      //     bids: 5,
-      //     category: "design",
-      //     endTime: "2024-04-20T10:00:00Z"
-      //   }
-
-      // ];
-
       // Get auctions with filters
       const auctionsUseCase = new AuctionsUseCase();
       const auctions = await auctionsUseCase.getAuctions({

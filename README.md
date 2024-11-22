@@ -44,17 +44,17 @@ This project implements Clean Architecture with the following layers:
 
 ## Project Structure
 src/
-├── domain/             # Enterprise business rules
-    └── useCases/       # Use cases
-├── infrastructure/     # Infrastructure
-    └── database/       # Database
-    └── repository/     # Repositories
-├── presentation/       # presentation    
-    └── components/     # React components
-    └── img/            # Images
-    └── layouts/        # Layouts
-    └── pages/          # Pages
-├── store/              # Redux Stores
+- domain/             
+  - useCases/         
+- infrastructure/     
+    - database/       
+    - repository/     
+- presentation/       
+    - components/     
+    - img/            
+    - layouts/        
+    - pages/          
+- store/             
 
 ## Testing
 

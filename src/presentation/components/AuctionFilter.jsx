@@ -22,8 +22,9 @@ const AuctionFilter = ({ onFilterChange }) => {
         
         <div className="space-y-6">
           <div className="flex flex-col gap-2">
-            <label className="text-sm font-medium text-gray-700">Category</label>
+            <label htmlFor="category-select" className="text-sm font-medium text-gray-700">Category</label>
             <select 
+              id="category-select"
               name="category" 
               value={filters.category}
               onChange={handleFilterChange}

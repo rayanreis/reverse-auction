@@ -39,6 +39,10 @@ const AuctionList = ({ auctions, onAuctionClick, currentUserId }) => {
                   )}
                 </div>
               </div>
+
+              <div className="hidden" id="category-test">
+                {auction.category}
+              </div>
               
               <p className="text-sm text-gray-600 mb-4 line-clamp-2">
                 {auction.description}
